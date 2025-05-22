@@ -1,0 +1,9 @@
+/* styles/Post.module.css */
+.post {
+  padding: 1rem;
+  margin: 50;
+  background-color: #3e3e3e;
+  border-radius: 8px;
+  font-size: medium;
+  
+}
