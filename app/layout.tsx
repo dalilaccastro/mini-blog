@@ -3,7 +3,7 @@ import { ReactNode } from 'react'
 
 export const metadata = {
   title: 'Mini Blog',
-  description: 'Blog com Next.js e TypeScript',
+  description: 'Blog com React.js, Next.js e TypeScript',
 }
 
 export default function RootLayout({ children }: { children: ReactNode }) {
