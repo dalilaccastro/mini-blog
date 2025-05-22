@@ -11,12 +11,13 @@ type Params = {
 export default function PostPage({ params }: Params) {
   const post = posts.find((p) => p.slug === params.slug)
 
-  if (!post) return <p>Post não encontrado. Tente novamente</p>
+  if (!post) return <p>Post não encontrado</p>
 
   return (
-    <article className={styles.post}>
-      <h1>{post.title}</h1>
-      <p>{post.content}</p>
+    <article className="max-w-3xl mx-auto p-6 bg-white/20 backdrop-blur-md rounded-lg shadow-lg mt-10 text-gray-900">
+      <h1 className="text-3xl font-bold mb-4 ">{post.title}</h1>
+      <p className="text-lg leading-relaxed">{post.content}</p>
     </article>
   )
 }
+

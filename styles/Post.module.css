@@ -1,9 +1,11 @@
 /* styles/Post.module.css */
 .post {
-  padding: 1rem;
-  margin: 50;
-  background-color: #3e3e3e;
-  border-radius: 8px;
-  font-size: medium;
-  
+  padding: 1.5rem;
+  background-color: #3a2f3f;
+  border-radius: 1rem;
+  font-size: 1rem;
+  color: #d8c99b;
+  max-width: 700px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 15px rgba(189, 99, 47, 0.3);
 }
